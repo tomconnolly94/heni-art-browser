@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "art-browser-server/dist/index.js",
+            "env": {
+                "PORT": "8082",
+                "APIKEY": "c28e4be0-4c0e-11ea-90d6-25d9a9fe80fc"
+              }
+        }
+    ]
+}
