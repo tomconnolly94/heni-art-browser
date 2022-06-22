@@ -3,19 +3,23 @@
 ### Quick start (for linux/mac) email tom.connolly@protonmail.com for windows support
 
  * Clone the repo to your machine
- * open a terminal in the root directory and install dependencies:
+ * Open a terminal in the root directory and install all dependencies:
 ```
 cd art-browser
 npm install
 cd ../art-browser-server
 npm install
 ```
- * open a terminal and start the server (this is in development mode)
+ * Start the server (this is in development mode)
 ```
-cd art-browser-server; npm start
+cd art-browser-server
+npm start
 ``` 
- * open a new terminal and start the client 
-```cd art-browser; npm start```
+ * Open a new terminal and start the client 
+```
+cd art-browser
+npm start
+```
 
 
 ### Testing
@@ -24,4 +28,18 @@ There is minimal skeleton testing in the project due to time contraints, testing
 
 #### Client
 
+Open a new terminal and trigger the test suite:
+```
+cd art-browser
+npm run test
+```
+
+
 #### Server
+
+Open a new terminal and trigger the test suite:
+```
+cd art-browser-server
+npm run test
+```
+
