@@ -1,5 +1,4 @@
 import axios from 'axios';
-import { query } from 'express';
 import { ArtDataItem } from '../Types/ArtDataItem';
 import { ArtPiece } from '../Types/ArtPiece';
 
